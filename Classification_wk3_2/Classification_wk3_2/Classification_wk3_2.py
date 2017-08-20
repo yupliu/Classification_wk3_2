@@ -300,4 +300,9 @@ print_stump(my_decision_tree)
 
 print_stump(my_decision_tree['left'], my_decision_tree['splitting_feature'])
 
-print_stump(my_decision_tree['left']['left'], my_decision_tree['left']['splitting_feature'])    
+print_stump(my_decision_tree['left']['left'], my_decision_tree['left']['splitting_feature'])
+
+print_stump(my_decision_tree['right'], my_decision_tree['splitting_feature'])
+
+print_stump(my_decision_tree['right']['right'], my_decision_tree['right']['splitting_feature'])   
+
